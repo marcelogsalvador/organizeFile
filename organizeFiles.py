@@ -1,4 +1,5 @@
-#A biblioteca "os" fornece funções para interagir com o sistema operacional e foi utilizada neste script para manipulação de diretórios e arquivos.
+#A biblioteca "os" fornece funções para interagir com o sistema operacional e
+#foi utilizada neste script para manipulação de diretórios e arquivos.
 import os
 
 #A biblioteca "shutil" é uma biblioteca em Python que fornece funções para operações de alto nível relacionadas à manipulação de arquivos e diretórios. O nome "shutil" é uma abreviação de "shell utility", indicando que ela é projetada para oferecer utilidades semelhantes às encontradas em um shell (linha de comando) do sistema operacional.
@@ -10,7 +11,7 @@ ondeCriarPasta = os.path.expanduser("~/Desktop")
 
 #Dicionario de diretório a serem criados que contem a listas de strings que representa as extensões que devem ser armazenadas em cada pastas.
 dirs = {
-	"Imagens": [".jpeg", "jpg", ".png", ".gif"],
+	"Imagens": [".jpeg", ".jpg", ".png", ".gif"],
 	"Documentos":[".doc", ".docx", ".pdf", ".txt"],
 	"Arquivos": [".zip", ".rar"]
 }
