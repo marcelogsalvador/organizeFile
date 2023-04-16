@@ -12,7 +12,7 @@ ondeCriarPasta = os.path.expanduser("~/Desktop")
 #Dicionario de diretório a serem criados que contem a listas de strings que representa as extensões que devem ser armazenadas em cada pastas.
 dirs = {
 	"Imagens": [".jpeg", ".jpg", ".png", ".gif"],
-	"Documentos":[".doc", ".docx", ".pdf", ".txt"],
+	"Documentos":[".doc", ".docx", ".pdf", ".txt", ".xls", ".xlsx"],
 	"Arquivos": [".zip", ".rar"]
 }
 
